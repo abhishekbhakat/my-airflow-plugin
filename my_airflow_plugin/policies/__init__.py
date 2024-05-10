@@ -10,7 +10,7 @@ if TYPE_CHECKING:
 @hookimpl
 def task_policy(task):
     print("Hello from task_policy")
-    doc_str = "This is a test doc string"
+    doc_str = "This is a test doc string."
     task.doc = doc_str
 
 @hookimpl
